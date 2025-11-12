@@ -140,31 +140,61 @@ Parte 3: Questões Complexas (Multi-JOINs e Filtros Específicos)
 ![img](image-65.png)
 
 33. Liste o nome dos alunos que estão matriculados na turma 'TI29'.
+![img](image-66.png)
+![img](image-67.png)
 
 34. Liste o nome do docente e a sigla do curso para as qualificações do docente com id_docente_fk = 5.
+![img](image-68.png)
+![img](image-69.png)
 
 35. Liste a sigla_turma e o nome_curso para as turmas que pertencem aos cursos TI (id_curso = 1) OU TII.
+![img](image-70.png)
+![img](image-71.png)
 
 36. Liste o nome_curso de todos os cursos, excluindo 'Técnico em Informática' (id_curso = 1).
+![img](image-72.png)
+![img](image-73.png)
 
 37. Encontre o nome_sala e a sigla_turma para as turmas do turno 'NOITE' que estão alocadas em salas de tipo 'TEORICA'.
+![img](image-74.png)
+![img](image-75.png)
 
 38. Liste o nome do aluno e o id_turma_fk para as matrículas com id_aluno_fk igual a 40 (The Narrator).
+![img](image-76.png)
+![img](image-77.png)
 
 39. Liste a sigla_turma e o nome_curso para as turmas cujo curso tenha a carga_horaria de 800 horas.
+![img](image-78.png)
+![img](image-79.png)
 
 40. Encontre o nome e a especialidade do docente que tem o id_docente 11.
+![img](image-80.png)
+![img](image-81.png)
 
 41. Liste a sigla_turma e o nome_curso para as turmas cujo turno é 'MANHA'. (Use tb_turmas e tb_cursos).
+![img](image-82.png)
+![img](image-83.png)
 
 42. Liste o nome_sala e o numero_sala para salas com capacidade diferente de 40.
+![img](image-84.png)
+![img](image-85.png)
 
 43. Liste o nome dos alunos que estão matriculados nas turmas que utilizam a sala de id_sala = 7. (Use tb_alunos, tb_aluno_turma, tb_turmas).
+![img](image-86.png)
+![img](image-87.png)
 
 44. Liste o nome_curso e a carga_horaria para cursos com carga_horaria maior que 1000 horas.
+![img](image-88.png)
+![img](image-89.png)
 
 45. Encontre a sigla_turma e o turno para as turmas cujo id_curso_fk é 8 (Enfermagem) e que estão alocadas na id_sala_fk 11.
+![img](image-90.png)
+![img](image-91.png)
 
 46. Liste o nome dos docentes que são especializados em 'Administração'.
+![img](image-92.png)
+![img](image-93.png)
 
-47. Liste o id_aluno, nome e data_nascimento para os alunos com 
+447. Liste o id_aluno, nome e data_nascimento para os alunos com id_aluno maior que 230.
+![img](image-94.png)
+![img](image-95.png)
